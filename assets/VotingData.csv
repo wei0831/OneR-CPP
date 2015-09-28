@@ -1,0 +1,11 @@
+Office,Party,State,Vote
+House,Dem,NY,Yes
+House,Dem,NJ,No
+House,Dem,CT,Yes
+House,Rep,NJ,No
+House,Rep,CT,Yes
+Senate,Dem,NY,No
+Senate,Dem,NJ,No
+Senate,Rep,NY,No
+Senate,Rep,NJ,Yes
+Senate,Rep,CT,Yes

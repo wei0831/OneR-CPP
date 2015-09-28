@@ -1,0 +1,46 @@
+================= Weather Data =================
+Using Attribute: Outlook
+Total Errors: [4/14] 
+=====================Rules=====================
+Overcast -> yes
+Rainy -> yes
+Sunny -> no
+==============================================
+==================Prediction==================
+Outlook [Overcast] Temperature [Cool] Humidity [High] Windy [FALSE] Play [yes] 
+Outlook [Sunny] Temperature [Cool] Humidity [Normal] Windy [TRUE] Play [no] 
+==============================================
+
+================= Voting Data =================
+Using Attribute: State
+Total Errors: [2/10] 
+=====================Rules=====================
+CT -> Yes
+NJ -> No
+NY -> No
+==============================================
+==================Prediction==================
+Office [Senate] Party [Dem] State [NJ] Vote [No] 
+Office [House] Party [Rep] State [CT] Vote [Yes] 
+Office [Senate] Party [Dem] State [NY] Vote [No] 
+Office [House] Party [Rep] State [NY] Vote [No] 
+==============================================
+
+================= Animal Data =================
+Using Attribute: legs
+Total Errors: [25/97] 
+=====================Rules=====================
+0 -> fish
+8 -> invertebrate
+2 -> bird
+4 -> mammal
+5 -> invertebrate
+6 -> insect
+==============================================
+==================Prediction==================
+hair [TRUE] feathers [FALSE] eggs [TRUE] milk [FALSE] airborne [TRUE] aquatic [FALSE] predator [FALSE] toothed [FALSE] backbone [FALSE] breathes [TRUE] venomous [TRUE] fins [FALSE] legs [6] tail [FALSE] domestic [FALSE] catsize [FALSE] type [insect] 
+hair [TRUE] feathers [FALSE] eggs [FALSE] milk [TRUE] airborne [FALSE] aquatic [FALSE] predator [TRUE] toothed [TRUE] backbone [TRUE] breathes [TRUE] venomous [FALSE] fins [FALSE] legs [4] tail [TRUE] domestic [FALSE] catsize [TRUE] type [mammal] 
+hair [FALSE] feathers [FALSE] eggs [TRUE] milk [FALSE] airborne [FALSE] aquatic [FALSE] predator [FALSE] toothed [FALSE] backbone [FALSE] breathes [TRUE] venomous [FALSE] fins [FALSE] legs [0] tail [FALSE] domestic [FALSE] catsize [FALSE] type [fish] 
+hair [FALSE] feathers [TRUE] eggs [TRUE] milk [FALSE] airborne [TRUE] aquatic [FALSE] predator [FALSE] toothed [FALSE] backbone [TRUE] breathes [TRUE] venomous [FALSE] fins [FALSE] legs [2] tail [TRUE] domestic [FALSE] catsize [FALSE] type [bird] 
+==============================================
+
