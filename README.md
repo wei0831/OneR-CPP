@@ -1,4 +1,4 @@
-# OneR-CPP
+# OneR CPP
 Simple implementation of One R algorithm for Machine Learning.
 
 ## Pseudocode
