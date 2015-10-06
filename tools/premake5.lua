@@ -44,7 +44,6 @@ project "One_R"
     defines { "_DEBUG", "_CRT_SECURE_NO_DEPRECATE" }
     links
     {
-      "sqlite3"
     }
     targetdir "../bin/debug"
     postbuildcommands

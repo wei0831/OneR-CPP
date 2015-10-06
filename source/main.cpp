@@ -38,7 +38,7 @@ int readData(const char * filename, attrtable& at, datatable& dt);
 int processData(attrtable& at, datatable& dt, rules& out_rules, int& out_attr_idx);
 void readPredictData(const char * filename, attrtable& at, int attribute_idx, rules& rule);
 
-int main(int argc, char* argv[])
+int main(void)
 {
   std::cout << "================= Weather Data =================" << std::endl;
   oneR("assets/WeatherData.csv", "assets/WeatherData_Predict.csv");
@@ -219,7 +219,6 @@ void readPredictData(const char * filename, attrtable& at, int attribute_idx, ru
   while (std::getline(infile, line))
   {
     std::vector<std::string> instance;
-    int cur_attr = 0;
     auto start = line.begin();
     auto end = line.begin();
 
