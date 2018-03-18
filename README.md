@@ -33,8 +33,3 @@ Outlook [Overcast] Temperature [Cool] Humidity [High] Windy [FALSE] Play [yes]
 Outlook [Sunny] Temperature [Cool] Humidity [Normal] Windy [TRUE] Play [no]
 ================================================
 ```
-
-## Author
-**[Jack Chang]** : [![endorse](https://api.coderwall.com/wei0831/endorsecount.png)](https://coderwall.com/wei0831)
-
-[Jack Chang]: https://about.me/wei0831
